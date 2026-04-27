@@ -25,3 +25,9 @@ db.connect((err) => {
         console.log("Database connected successully");
     }
 })
+
+
+app.listen(3000, () => {
+    console.log("Server is run on port http://localhost:3000");
+})
+
